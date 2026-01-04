@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    color:#333;
+}
+
+/* HERO */
+.hero{
+    min-height:100vh;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero img{
+    width:130px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    margin:10px 0 20px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+    color:#ff5f7e;
+    font-weight:600;
+    margin:5px;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.outline{
+    background:transparent;
+    border:2px solid white;
+    color:white;
+}
+
+/* SECTIONS */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.about{ background:#fff0f5; }
+.education{ background:#fce4ec; }
+.skills{ background:#fff0f5; }
+
+/* SKILLS */
+.skill-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.skill-box span{
+    background:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+/* PROJECTS */
+.project-card{
+    background:#fff0f5;
+    margin:15px auto;
+    padding:25px;
+    width:300px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+}
+
+.project-card a{
+    text-decoration:none;
+    color:#ff5f7e;
+    font-weight:500;
+}
+
+/* CONTACT */
+.contact{
+    background:#f8bbd0;
+}
+
+.contact-form{
+    max-width:350px;
+    margin:20px auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:10px;
+    border-radius:10px;
+    border:none;
+}
+
+.contact-form button{
+    background:#ff5f7e;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+    background:#ffb6c1;
+    padding:15px;
+    text-align:center;
+    font-size:14px;
+}
